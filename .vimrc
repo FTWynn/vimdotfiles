@@ -1,8 +1,7 @@
 " Adds pathogen to autoload before calling it because I stored it in the bundle folder
-"filetype off
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-"call pathogen#infect()
-"call pathogen#helptags()
+filetype off
+call pathogen#infect()
+call pathogen#helptags()
 
 " Basic, good ideas to have
 "filetype plugin indent on
